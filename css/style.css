@@ -1024,12 +1024,32 @@ flex-wrap:wrap;
 align-items:center;
 justify-content:space-around;
 flex-grow:1;
+justify-content: flex-start;
+padding: 0px 40px;
 
 }
+
+.card-st {
+  overflow: hidden;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 5px solid aqua;
+    padding: 20px;
+    background: white;
+}
+
+.max-height-st {
+  max-height: 420px;
+}
+
 .w{
   overflow-wrap:break-word;
   word-wrap:break-word; 
   hyphens:auto; 
+  overflow: hidden;
+  height:47px;
 }
 
 .widget-sidebar .list-sidebar li:before {
